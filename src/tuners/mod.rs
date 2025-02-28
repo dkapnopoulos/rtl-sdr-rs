@@ -1,9 +1,10 @@
 pub mod r820t;
+pub mod r828d;
 use crate::device::Device;
 use crate::error::Result;
 use crate::TunerGain;
 
-pub const KNOWN_TUNERS: [TunerInfo; 1] = [r820t::TUNER_INFO];
+pub const KNOWN_TUNERS: [TunerInfo; 2] = [r820t::TUNER_INFO, r828d::TUNER_INFO,];
 
 #[derive(Debug, Clone, Copy)]
 

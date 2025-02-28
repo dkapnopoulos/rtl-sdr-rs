@@ -23,7 +23,7 @@ use std::time::{Instant, Duration};
 
 
 // Radio and demodulation config
-const FREQUENCY: u32 = 94_900_000; // Frequency in Hz, 91.1MHz WREK Atlanta
+const FREQUENCY: u32 = 96_800_000; // Frequency in Hz, 91.1MHz WREK Atlanta
 const SAMPLE_RATE: u32 = 170_000; // Demodulation sample rate, 170kHz
 const RATE_RESAMPLE: u32 = 32_000; // Output sample rate, 32kHz
 
